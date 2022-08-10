@@ -1,0 +1,39 @@
+.skills {
+  flex-grow: 1;
+}
+
+.skills h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  color: #01046C;
+}
+
+.content {
+  display: grid;
+  font-size: 24px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content div {
+  margin-bottom: 25px;
+}
+
+.content strong {
+  line-height: 25px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.content li {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+@media (min-width: 800px) {
+  .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

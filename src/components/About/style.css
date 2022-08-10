@@ -1,0 +1,17 @@
+.about {
+  flex-grow: 1;
+  margin-top:40px ;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  color: #01046C;
+}
+
+.para {
+  font-family: 'Tangerine', serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  font-weight: 800;
+}

@@ -1,0 +1,83 @@
+.home {
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home.image{
+  height: 200px;
+  width:200px;
+}
+.home .title {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.home .title p {
+  line-height: 50px;
+}
+
+.home .title button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 10px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 999px;
+  background-color: #3f71f4;
+  font-family: "Righteous", cursive;
+}
+
+
+.home .person img {
+  height: 300px;
+  border-radius: 850px;
+  width: 280px;
+}
+
+@media (min-width: 600px) {
+  .home .title p {
+    line-height: 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    height: 600px;
+    width: 540px;
+    border-radius: 1700px;
+    margin-top: 0;
+    text-align: left;
+    font-size: 20px;
+  }
+    .home .person img {
+      width: 70%;
+    }
+}
+
+
+.home .title button1 {
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 30px;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 999px;
+  font-family: "Righteous", cursive;
+  border: 1px solid red;
+  background-color: black;
+  margin-left: 10px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+

@@ -1,0 +1,10 @@
+.works {
+  flex-grow: 1;
+}
+
+.works h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+  color: #01046C;
+}
